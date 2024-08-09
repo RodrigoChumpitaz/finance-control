@@ -1,5 +1,5 @@
 import { Service } from 'moleculer';
-import { mongoConnections } from 'commons/dist/src/config/mongo-connections';
+import { mongoConnections } from '@service/commons/dist/src/config/mongo-connections';
 
 type ProjectThis = Service;
 

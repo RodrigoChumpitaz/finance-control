@@ -1,7 +1,7 @@
-import { UseCase } from 'commons/dist/src/shared/UseCase';
+import { UseCase } from '@service/commons/dist/src/shared/UseCase';
 import { CreateProductResponseDTO } from './createProductResponseDTO';
 import { CreateProductRequestDTO } from './createProductRequestDTO';
-import { Product } from 'commons/dist/src/domains/product/product';
+import { Product } from '@service/commons/dist/src/domains/product/product';
 
 type Response = CreateProductResponseDTO | Error;
 

@@ -1,7 +1,7 @@
-import { UseCase } from 'commons/dist/src/shared/UseCase';
+import { UseCase } from '@service/commons/dist/src/shared/UseCase';
 import { CreateCategoryResponseDTO } from './createCategoryResponseDTO';
 import { CreateCategoryRequestDTO } from './createCategoryRequestDTO';
-import { Category } from 'commons/dist/src/domains/category/category';
+import { Category } from '@service/commons/dist/src/domains/category/category';
 
 type Response = CreateCategoryResponseDTO | Error;
 
