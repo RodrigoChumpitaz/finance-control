@@ -1,6 +1,6 @@
 # Backend Base Monorepo
 
-Este proyecto es una base para desarrollar diferentes servicios REST que incluyen varias APIs, similar a un monorepo. El proyecto está dividido en dos principales directorios: `commons` y `finance-api`.
+Este proyecto es una base para desarrollar diferentes servicios REST que incluyen varias APIs, similar a un monorepo. El proyecto está dividido en dos principales directorios: `commons` y `api`.
 
 ## Estructura de Proyecto
 
@@ -24,7 +24,7 @@ Este proyecto es una base para desarrollar diferentes servicios REST que incluye
 │   ├── tsconfig.build.json
 │   ├── tsconfig.eslint.json
 │   ├── tsconfig.json
-├── finance-api/
+├── api/
 │   ├── .editorconfig
 │   ├── .env
 │   ├── .eslintrc.js
