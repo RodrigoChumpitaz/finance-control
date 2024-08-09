@@ -1,18 +1,18 @@
 import { ServiceSchema } from 'moleculer';
-import { FinanceStatusHandler } from './handlers/projectStatusHandler';
+import { ProjectStatusHandler } from './handlers/projectStatusHandler';
 import { productCreateHandler } from './handlers/productCreateHandler';
 import { categoryCreateHandler } from './handlers/categoryCreateHandler';
 
 const apiVersion = 'v1';
-const financeService: ServiceSchema = {
-	name: 'finance',
+const projectService: ServiceSchema = {
+	name: 'project',
 	actions: {
 		status: {
 			rest: {
 				method: 'GET',
 				path: `${apiVersion}/status`
 			},
-			handler: FinanceStatusHandler
+			handler: ProjectStatusHandler
 		},
 		createProduct: {
 			rest: {
@@ -31,4 +31,4 @@ const financeService: ServiceSchema = {
 	}
 };
 
-export default financeService;
+export default projectService;

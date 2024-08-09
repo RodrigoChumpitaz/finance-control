@@ -1,9 +1,9 @@
 import { Service } from 'moleculer';
 import { mongoConnections } from 'commons/dist/src/config/mongo-connections';
 
-type FinanceThis = Service;
+type ProjectThis = Service;
 
-async function FinanceStatusHandler(this: FinanceThis) {
+async function ProjectStatusHandler(this: ProjectThis) {
 	const mongoConnection = await mongoConnections.default;
 	return {
 		service: 'api',
@@ -12,4 +12,4 @@ async function FinanceStatusHandler(this: FinanceThis) {
 	};
 }
 
-export { FinanceStatusHandler };
+export { ProjectStatusHandler };

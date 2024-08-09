@@ -1,8 +1,8 @@
 import { Service } from 'moleculer';
-import { FinanceStatusHandler } from 'src/services/handlers/projectStatusHandler';
+import { ProjectStatusHandler } from 'src/services/handlers/projectStatusHandler';
 import { mongoConnections } from 'commons/dist/src/config/mongo-connections';
 
-describe('FinanceStatusHandler', () => {
+describe('ProjectStatusHandler', () => {
 	let service: Service;
 	let connection: any;
 

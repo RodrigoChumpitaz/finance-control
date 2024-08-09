@@ -41,7 +41,7 @@ Este proyecto es una base para desarrollar diferentes servicios REST que incluye
 │   │   │   ├── api.service.ts
 │   │   │   ├── handlers/
 │   │   │   │   ├── projectStatusHandler.ts
-│   │   ├── finance.service.ts
+│   │   ├── base.service.ts
 │   ├── tsconfig.build.json
 │   ├── tsconfig.eslint.json
 │   ├── tsconfig.json
@@ -90,7 +90,7 @@ Este proyecto es una base para desarrollar diferentes servicios REST que incluye
       - [`api.service.ts`]: Servicio principal de la API.
       - `handlers/`: Manejadores de eventos.
         - `projectStatusHandler.ts`: Manejador del estado del proyecto.
-    - [`finance.service.ts`]: Servicio de finanzas.
+    - [`base.service.ts`]: Servicio base(expone endpoints).
   - [`tsconfig.build.json`]: Configuración de TypeScript para la construcción.
   - [`tsconfig.eslint.json`]: Configuración de TypeScript para ESLint.
   - [`tsconfig.json`]: Configuración de TypeScript.

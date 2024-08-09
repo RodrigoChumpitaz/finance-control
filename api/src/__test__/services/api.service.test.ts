@@ -16,7 +16,7 @@ describe('ApiService', () => {
 	});
 
 	it('should have the correct whitelist', () => {
-		expect(ApiService!.settings!.routes![0].whitelist).toEqual(['finance.*']);
+		expect(ApiService!.settings!.routes![0].whitelist).toEqual(['base.*']);
 	});
 
 	it('should have the correct CORS settings', () => {
